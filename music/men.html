@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #6F4E37; /* Fondo café */
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+            overflow-y: auto; /* Permitir desplazamiento vertical */
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+        }
+        .centrar-imagenes {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 100%;
+        }
+        .menu-item {
+            background-color: white; /* Fondo blanco para los cuadros */
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            width: calc(50% - 20px); /* Dos elementos por fila, con espacio entre ellos */
+            box-sizing: border-box;
+        }
+        .menu-item a {
+            color: #6F4E37; /* Color del texto */
+            font-family: 'Broadway', sans-serif;
+            font-size: 24px;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .menu-item img {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div align="center">
+            <img src="menu.jpeg" width="500" height="200" alt="Menu" />
+        </div>
+
+        <div class="centrar-imagenes">
+            <div class="menu-item">
+                <a href="historia.html">HISTORIA</a>
+                <img src="h.jpeg" alt="Historia" />
+            </div>
+            <div class="menu-item">
+                <a href="streaming.html">STREAMING</a>
+                <img src="streaming.jpeg" alt="Streaming" />
+            </div>
+            <div class="menu-item">
+                <a href="generos.html">GÉNEROS</a>
+                <img src="gene.jpeg" alt="Géneros" />
+            </div>
+            <div class="menu-item">
+                <a href="tigres.html">LOS TIGRES DEL NORTE</a>
+                <img src="tu.jpeg" alt="Los Tigres del Norte" />
+            </div>
+            <div class="menu-item">
+              <a href="conjunto.html">CONJUNTO PRIMAVERA</a>
+              <img src="cp.jpeg" alt="Conjunto Primavera" />
+          </div>
+          <div class="menu-item">
+            <a href="bronco.html">BRONCO</a>
+            <img src="bro.jpeg" alt="Bronco" />
+        </div>
+        <div class="menu-item">
+          <a href="jenni.html">JENNI RIVERA</a>
+          <img src="jen.jpeg" alt="Jenni Rivera" />
+      </div>
+      <div class="menu-item">
+        <a href="lola.html">LOLA BELTRAN</a>
+        <img src="LO.jpeg" alt="Lola Beltrán" />
+    </div>
+    <div class="menu-item">
+      <a href="pedro.html">PEDRO INFANTE</a>
+      <img src="PEDRO.jpeg" alt="pedro infante" />
+  </div>
+  <div class="menu-item">
+    <a href="vicente.html">VICENTE FERNANDEZ</a>
+    <img src="vi.jpeg" alt="vicente fernandez" />
+</div>
+        </div>
+    </div>
+</body>
+</html>
